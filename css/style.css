@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/* Smartphones */
+/* Tablet */
+/* Normal */
+/* Widescreen */
+/* Landscape */
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #9b9b9a;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+}
+
+#showcase {
+  background: url("../img/showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+#showcase h1 {
+  padding-top: 180px;
+  color: #fff;
+}
+
+#countdown {
+  background: url("../img/countdown.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+#countdown h1 {
+  padding-top: 180px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
